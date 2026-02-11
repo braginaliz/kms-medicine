@@ -1611,21 +1611,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  min-height: 380px;
   border-radius: var(--r-30);
   background: url("<?php echo get_stylesheet_directory_uri(); ?>/assets/images/doctor.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding: var(--margin-60) var(--padding-50);
+  padding: 78.5px 78px;
   box-sizing: border-box;
+  min-height: 438px;
 }
 
 .contacts__content {
   position: relative;
   z-index: 2;
-  max-width: 550px;
+  min-width: 711px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: var(--gap-30);
@@ -1634,13 +1635,16 @@ body {
 .contacts__title {
   margin: 0;
   font-family: var(--ff-onest);
-  font-weight: var(--fw-medium);
-  font-size: var(--fs-services-title);
-  line-height: var(--lh-services-title);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3;
   text-transform: uppercase;
-  color: var(--c-accent);
+  color: #000000; /* черный для всего текста */
 }
 
+.contacts__accent {
+  color: var(--c-accent); /* красный только для этого спэна */
+}
 .contacts__button {
   display: inline-flex;
   align-items: center;
