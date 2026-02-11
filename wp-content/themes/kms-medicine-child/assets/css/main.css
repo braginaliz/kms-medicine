@@ -1690,7 +1690,7 @@ body {
   display: grid;
   grid-template-columns: 340px 1fr auto;
   gap: var(--margin-60);
-  padding: 0 30px var(--padding-50) 30px;
+  padding: 60PX 60px var(--padding-50) 60px;
   border-bottom: 1px solid rgba(131, 131, 131, 0.2);
   margin-bottom: var(--gap-30);
 }
