@@ -5,9 +5,7 @@
       <div class="licenses__left">
         <span class="licenses__badge">Наши лицензии</span>
         
-        <h2 class="licenses__title">
-          <span class="licenses__title-line">ЛИЦЕНЗИИ</span>
-          <span class="licenses__title-line licenses__title-line--accent">И СЕРТИФИКАТЫ</span>
+        <h2 class="licenses__title licenses__title-line">Лицензии и сертификаты
         </h2>
         
         <p class="licenses__description">
@@ -30,7 +28,7 @@
           <a href="#" class="licenses__document">
             <div class="licenses__document-inner">
               <div class="licenses__document-image">
-                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/licence1.png" alt="Лицензия1">
+                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/licence1.png" alt="Лицензия на медицинскую деятельность">
               </div>
             </div>
           </a>
@@ -38,7 +36,7 @@
           <a href="#" class="licenses__document">
             <div class="licenses__document-inner">
               <div class="licenses__document-image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/licence2.png" alt="Лицензия2">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/licence2.png" alt="Сертификат соответствия медицинских услуг">
               </div>
             </div>
           </a>

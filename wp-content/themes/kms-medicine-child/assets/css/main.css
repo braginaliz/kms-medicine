@@ -1483,10 +1483,6 @@ body {
   display: block;
 }
 
-.licenses__title-line--accent {
-  color: var(--c-accent);
-}
-
 .licenses__description {
   margin: 0;
   font-family: var(--ff-onest);
