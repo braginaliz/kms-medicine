@@ -1321,6 +1321,7 @@ body {
 .emergency-help .container {
   max-width: var(--container-max);
   margin: 0 auto;
+  
 }
 
 .emergency-help__card {
@@ -1337,15 +1338,16 @@ body {
     right center;
   background-repeat: no-repeat, no-repeat;
   overflow: hidden;
-  padding: var(--margin-60) var(--padding-50);
+  padding: 65px;
   box-sizing: border-box;
+  min-height: 536px;
 }
 
 .emergency-help__content {
-  padding: 60px;
   position: relative;
   z-index: 2;
-  max-width: 550px;
+  min-width: 680px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: var(--gap-30);
@@ -1354,9 +1356,9 @@ body {
 .emergency-help__title {
   margin: 0;
   font-family: var(--ff-onest);
-  font-weight: var(--fw-medium);
-  font-size: var(--fs-services-title);
-  line-height: var(--lh-services-title);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.3;
   text-transform: uppercase;
   color: var(--c-white);
 }
@@ -1368,9 +1370,9 @@ body {
 .emergency-help__description {
   margin: 0;
   font-family: var(--ff-onest);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-card-text);
-  line-height: var(--lh-card-text);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.0;
   color: var(--c-white);
 }
 
@@ -1378,16 +1380,16 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 230px;
-  min-height: var(--button-min-height);
-  padding: 16px var(--padding-30);
+  min-width: 248px;
+  min-height:65px;
+  padding: 19.5px 44.5px;
   border-radius: var(--r-30);
   border: none;
   background: var(--c-accent);
   font-family: var(--ff-onest);
-  font-weight: var(--fw-medium);
-  font-size: var(--fs-button);
-  line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
   color: var(--c-on-accent);
   white-space: nowrap;
   cursor: pointer;
