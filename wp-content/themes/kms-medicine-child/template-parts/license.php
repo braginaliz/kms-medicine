@@ -5,7 +5,7 @@
       <div class="licenses__left">
         <span class="licenses__badge">Наши лицензии</span>
         
-        <h2 class="licenses__title licenses__title-line">Лицензии и сертификаты
+        <h2 class="licenses__title licenses__title-line">Лицензии <br>и сертификаты
         </h2>
         
         <p class="licenses__description">
