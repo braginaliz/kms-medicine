@@ -1439,9 +1439,8 @@ body {
 
 .licenses__inner {
   display: grid;
-  grid-template-columns: 580px 1fr;
-  gap: var(--margin-60);
-  align-items: start;
+  grid-template-columns:1fr 1fr;
+  justify-content: space-between;
 }
 
 /* Left Column */
