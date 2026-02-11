@@ -1734,9 +1734,8 @@ body {
 
 .footer__phone {
   font-family: var(--ff-onest);
-  font-weight: var(--fw-medium);
-  font-size: var(--fs-phone);
-  line-height: 1.2;
+  font-weight: 500;
+  font-size: 40px;
   color: var(--c-text-strong);
   text-decoration: none;
   transition: color 0.3s ease;
@@ -1749,8 +1748,8 @@ body {
 .footer__phone-note {
   margin: 0;
   font-family: var(--ff-onest);
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-note);
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.2;
   color: var(--c-text-muted);
 }
