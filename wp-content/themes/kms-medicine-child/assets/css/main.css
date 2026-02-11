@@ -1123,7 +1123,7 @@ body {
 .faq__inner {
   display: grid;
   grid-template-columns: 580px 1fr;
-  gap: var(--margin-60);
+  gap: 159px;
   align-items: start;
 }
 
@@ -1233,8 +1233,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--gap-30);
-  padding: var(--padding-30) 0;
+  gap: 16px;
+  padding: 16px 0;
   background: transparent;
   border: none;
   cursor: pointer;
