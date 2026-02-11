@@ -1321,6 +1321,7 @@ body {
 .emergency-help .container {
   max-width: var(--container-max);
   margin: 0 auto;
+   min-height: 536px;
   
 }
 
@@ -1329,7 +1330,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  min-height: 380px;
   border-radius: var(--r-30);
   background: url("/wp-content/themes/kms-medicine-child/assets/images/cov-cardio.jpg");
   background-size: cover, contain;
@@ -1338,9 +1338,11 @@ body {
     right center;
   background-repeat: no-repeat, no-repeat;
   overflow: hidden;
-  padding: 65px;
+  padding: 65px 78px;
   box-sizing: border-box;
-  min-height: 536px;
+
+  display: flex;
+  align-items: center; 
 }
 
 .emergency-help__content {
@@ -1350,7 +1352,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: var(--gap-30);
+  gap: 59px 49px;
 }
 
 .emergency-help__title {
@@ -1372,7 +1374,6 @@ body {
   font-family: var(--ff-onest);
   font-weight: 400;
   font-size: 26px;
-  line-height: 1.0;
   color: var(--c-white);
 }
 
