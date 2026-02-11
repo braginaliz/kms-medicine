@@ -1342,6 +1342,7 @@ body {
 }
 
 .emergency-help__content {
+  padding: 60px;
   position: relative;
   z-index: 2;
   max-width: 550px;
