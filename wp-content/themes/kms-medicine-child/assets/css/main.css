@@ -652,6 +652,8 @@ body {
   font-family: var(--ff-onest);
   border-radius: 50px;
   justify-self: center;
+  min-width: 1440px;
+  width: 100%;
 }
 
 .why-us__container {
@@ -985,6 +987,8 @@ body {
 
 /* Work Types Section */
 .work-types {
+  min-width: 1440px;
+  width: 100%;
   margin-top: 110px;
   padding: 100px 0;
   background: white;
