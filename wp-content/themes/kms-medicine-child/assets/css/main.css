@@ -1598,7 +1598,7 @@ body {
 }
 
 .contacts {
-  padding: var(--margin-120) 0;
+  padding: 60px 0;
   background: transparent;
   font-family: var(--ff-onest);
 }
@@ -1692,9 +1692,8 @@ body {
   max-width: 1440px;
   width: 100%;
   background: var(--c-surface);
-  border-radius: var(--r-20) var(--r-20) 0 0;
+  border-radius: 50px;
   font-family: var(--ff-onest);
-  margin-top: var(--margin-120);
   overflow: hidden;
 }
 
@@ -1819,7 +1818,7 @@ body {
 .footer__nav {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  gap: var(--margin-60);
+  gap: 199px;
   align-items: start;
 }
 
