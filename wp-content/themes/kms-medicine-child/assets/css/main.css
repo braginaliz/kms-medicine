@@ -1760,7 +1760,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 189px;
+  max-width: 189px;
   min-height: var(--button-min-height);
   padding: 16px var(--padding-30);
   border-radius: var(--r-30);
