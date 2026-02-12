@@ -386,6 +386,7 @@ body {
 .services__container {
   width: var(--container-max);
   margin: var(--margin-120) 0;
+  justify-self: center;
 }
 
 .services__head {
