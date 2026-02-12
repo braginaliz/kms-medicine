@@ -1,0 +1,138 @@
+/* Header */
+.site-header {
+  max-width: 1380px; 
+  width: 100%;
+  background: var(--c-surface);
+  border-radius: var(--r-20);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--header-min-height);
+  gap: var(--gap-30);
+  padding: 0 var(--padding-30);
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.logo-img {
+  width: var(--logo-width);
+  height: var(--logo-height);
+  display: block;
+  object-fit: cover;
+}
+
+.header-line {
+  width: 0;
+  min-height: 54px;
+  display: block;
+}
+
+/* Navigation */
+.header-nav {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-30);
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: var(--ff-onest);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-nav);
+  line-height: var(--lh-card-text);
+  color: var(--c-text);
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--c-accent);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--c-accent);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Header Contact */
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-30);
+  flex: 0 0 auto;
+}
+
+.phone-info {
+  text-align: right;
+}
+
+.phone-number {
+  display: block;
+  margin: 0;
+  font-family: var(--ff-onest);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-phone);
+  line-height: var(--lh-card-text);
+  color: var(--c-text-strong);
+  text-decoration: none;
+}
+
+.phone-number:hover {
+  color: var(--c-accent);
+}
+
+.phone-note {
+  display: block;
+  margin: 0;
+  font-family: var(--ff-onest);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-note);
+  line-height: var(--lh-card-text);
+  color: var(--c-text-muted);
+}
+
+.header-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-30);
+  text-decoration: none;
+  font-family: var(--ff-onest);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-button);
+  line-height: var(--lh-card-text);
+  color: var(--c-on-accent);
+  background: var(--c-accent);
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+  min-width: var(--button-min-width);
+  min-height: var(--button-min-height);
+  padding: 16px var(--padding-30);
+  box-sizing: border-box;
+}
