@@ -1,0 +1,70 @@
+:root {
+  /* Цвета */
+  --c-surface: #ffffff;
+  --c-text: #22202a;
+  --c-text-strong: #000000;
+  --c-text-muted: #838383;
+  --c-accent: #900008;
+  --c-on-accent: #f9f9f9;
+  --c-hero-title: #373737;
+  --c-hero-text-on-image: #ffffff;
+  --c-dark-bg: #3b3b3b;
+  --c-services-title: #373737;
+  --c-border: #838383;
+  --c-black: #000000;
+  --c-white: #ffffff;
+
+  /* шРИФТЫ */
+  --ff-onest: "Onest", Arial, sans-serif;
+  --ff-montserrat: "Montserrat", Arial, sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fs-nav: 16px;
+  --fs-phone: 20px;
+  --fs-note: 16px;
+  --fs-button: 16px;
+  --fs-hero-h1: 64px;
+  --lh-hero-h1: 110%;
+  --fs-hero-text: 16px;
+  --lh-hero-text: 120%;
+  --fs-services-title: 48px;
+  --lh-services-title: 110%;
+  --fs-card-title: 28px;
+  --lh-card-title: 110%;
+  --fs-card-text: 16px;
+  --lh-card-text: 1.2;
+
+  /* Радиусы */
+  --r-20: 20px;
+  --r-30: 30px;
+  --r-pill: 31px;
+
+  /*  Размеры */
+  --container-max: 1380px;
+  --header-minw: 1380px;
+  --logo-width: 154px;
+  --logo-height: 53px;
+  --header-min-height: 93px;
+  --button-min-width: 189px;
+  --button-min-height: 53px;
+  --hero-features-height: 400px;
+  --hero-features-max-width: 606px;
+  --feature-item-width: 260px;
+  --feature-item-height: 50px;
+  --feature-icon-size: 50px;
+  --badge-width: 165px;
+  --badge-height: 50px;
+  --card-height: 350px;
+  --card-col-fixed: 563px;
+
+  /* Гэп */
+  --gap-30: 30px;
+  --gap-15: 15px;
+  --gap-10: 10px;
+  --gap-5: 5px;
+  --padding-30: 30px;
+  --padding-50: 50px;
+  --margin-60: 60px;
+  --margin-100: 100px;
+  --margin-120: 120px;
+}
